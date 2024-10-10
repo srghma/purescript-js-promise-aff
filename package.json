@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "purs-tidy check --config-require src && spago build --censor-stats --strict --pedantic-packages",
+    "build": "purs-tidy check --config-require src && spago build --censor-stats --strict --ensure-ranges --pedantic-packages",
     "test": "pulp test"
   },
   "devDependencies": {
