@@ -1,0 +1,30 @@
+package:
+  name: js-promise-aff
+  publish:
+    license: MIT
+    version: 4.0.0
+    location:
+      githubOwner: nwolverson
+      githubRepo: purescript-aff-promise
+  dependencies:
+    - aff
+    - control
+    - effect
+    - either
+    - exceptions
+    - foreign
+    - js-promise
+    - maybe
+    - prelude
+    - transformers
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - datetime
+      - integers
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
