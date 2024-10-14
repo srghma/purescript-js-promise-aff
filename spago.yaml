@@ -24,7 +24,4 @@ package:
       - console
       - datetime
       - integers
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
