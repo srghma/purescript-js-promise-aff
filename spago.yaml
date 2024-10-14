@@ -2,7 +2,7 @@ package:
   name: js-promise-aff
   publish:
     license: MIT
-    version: 4.0.0
+    version: 5.0.0
     location:
       githubOwner: nwolverson
       githubRepo: purescript-aff-promise
